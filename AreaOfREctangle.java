@@ -3,6 +3,13 @@ import java.net.SocketPermission;
 class rectangle{
     int length;
     int breadth;
+
+ //method
+    public int area(){
+        return length*breadth;
+}
+
+
 //constructor default
     public rectangle(){
         length = 5;
@@ -14,10 +21,7 @@ class rectangle{
         breadth=b;
     }
     
-    //method
-    public int area(){
-        return length*breadth;
-    }
+  
 }
 public class AreaOfREctangle {
     public static void main(String[] args) {
