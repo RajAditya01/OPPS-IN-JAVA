@@ -7,9 +7,9 @@ class Student {
     int studentRollNo;
 
 
-    //Constracutor Overloading-->creating more than one const
+    //Constracutor Overloading-->creating more than one const.
     public Student(){
-        System.out.println("creating object: Non parametrised constructor");
+        System.out.println("creating object: Non parametrised constructor.");
     }
     public Student(int s){
         System.out.println("Prametrised Constructor :(int)");
