@@ -11,8 +11,8 @@ class child extends parent{
 }
 public class method {
     public static void main(String[] args) {
-        parent p1=new parent();
-        p1.display();
+        parent a1=new parent();
+        a1.display();
 
         child c1=new child();
         c1.display();
